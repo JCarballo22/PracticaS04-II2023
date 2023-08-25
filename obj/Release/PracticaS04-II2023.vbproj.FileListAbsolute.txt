@@ -1,0 +1,11 @@
+C:\Users\Carba\source\repos\PracticaS04-II2023\bin\Release\PracticaS04-II2023.exe.config
+C:\Users\Carba\source\repos\PracticaS04-II2023\bin\Release\PracticaS04-II2023.exe
+C:\Users\Carba\source\repos\PracticaS04-II2023\bin\Release\PracticaS04-II2023.pdb
+C:\Users\Carba\source\repos\PracticaS04-II2023\bin\Release\PracticaS04-II2023.xml
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.vbproj.AssemblyReference.cache
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04_II2023.Resources.resources
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.vbproj.GenerateResource.cache
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.vbproj.CoreCompileInputs.cache
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.exe
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.xml
+C:\Users\Carba\source\repos\PracticaS04-II2023\obj\Release\PracticaS04-II2023.pdb

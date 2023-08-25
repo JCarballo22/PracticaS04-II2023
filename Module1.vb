@@ -62,6 +62,11 @@ Module Module1
 
         Concatenar()
 
+        Ejemplo1()
+
+        CapturaDatos()
+
+        Console.Read()
     End Sub
 
     Sub ciclo()
@@ -105,10 +110,62 @@ Module Module1
             Console.WriteLine(variable)
         End If
 
+
         'Console.WriteLine(variable)
     End Sub
 
+    Sub Ejemplo1()
+        'Dim aNacimiento = 1931
+        'Dim aActual As Integer = DateTime.Now.Year
+        calEdad(2001)
+
+        Dim Edad = CalEdad2(1985)
+        Console.WriteLine("La edad del estudiante es de " & Edad)
+
+        Dim aNacimiento = CalNacimiento(41)
+        Console.WriteLine("La año de nacimiento del estudiante es en  " & aNacimiento)
+
+        'Console.WriteLine(aActual.GetType.ToString)
+
+    End Sub
+
+    Sub calEdad(ByVal aNacimiento)
+        Dim aActual = DateTime.Now.Year
+        Dim edad As Integer = aActual - aNacimiento
+        Console.WriteLine("La edad del estudiante que nacio el año " & aNacimiento & " es de " & edad)
+
+    End Sub
+
+    Function CalEdad2(ByVal aNacimiento)
+        Dim aActual = DateTime.Now.Year
+        Dim edad As Integer = aActual - aNacimiento
+        Return edad
+        'Console.WriteLine("La edad del estudiante que nacio el año " & aNacimiento & " es de " & edad)
+
+    End Function
+
+    Function CalNacimiento(ByVal edad)
+        Dim aActual = DateTime.Now.Year
+        Dim aNaci = aActual - edad
+        Return aNaci
+    End Function
+
     'Console.WriteLine(variable)
+    Sub CapturaDatos()
+        Console.WriteLine("¡Estudiante cual es su nombre?")
+        Dim nombre = Console.ReadLine()
+        Console.WriteLine("¿" & nombre & " en que año nacistes?")
+        Dim aNacimiento As Integer = Integer.Parse(Console.ReadLine())
+        Dim edad As Integer = DateTime.Now.Year - aNacimiento
+        Console.WriteLine("¿Estudiante cuanto dinero tienes?")
+        Dim ahorro = Single.Parse(Console.ReadLine())
+
+        Console.WriteLine("El estudiante " & nombre & " tiene " & edad & " años y tiene ahorrado $" & ahorro & " Dolares")
+
+
+
+
+    End Sub
 
 End Module
 'Aqui no esta disponible la variable
